@@ -1,0 +1,32 @@
+# INSTALL GIT
+git --version
+
+
+# INSTALL PIP
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+
+
+# CREATE THE PROJECT DIRECTORY
+mkdir sentiment_analysis
+cd sentiment_analysis
+
+# INSTALL VIRTUALENV
+pip install virtualenv
+
+# CREATE A VIRLTUAL ENVIRONMENT INSIDE THE PROJECT
+virtualenv -p python3 venv
+
+
+# ACTIVATE VIRTUAL ENV
+source venv/bin/activate
+
+# INSTALL DJANGO 3
+pip install django
+
+# START A DJANGO PROJECT 
+django-admin startproject sentiment_analysis .
+
+# TEST THE INSTALLATION BY STARTING THE DJANGO TEST SERVER
+python manage.py runserver
+
