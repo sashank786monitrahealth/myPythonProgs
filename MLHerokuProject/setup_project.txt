@@ -35,3 +35,12 @@ python manage.py migrate
 ======================
 
 django-admin startapp modelling
+
+cd modelling
+wget -c http://www.cs.cornell.edu/people/pabo/movie-review-data/review_polarity.tar.gz
+tar xvfz review_polarity.tar.gz
+
+
+
+==================================
+pip install scikit-learn
