@@ -30,3 +30,8 @@ django-admin startproject sentiment_analysis .
 # TEST THE INSTALLATION BY STARTING THE DJANGO TEST SERVER
 python manage.py runserver
 
+python manage.py migrate
+
+======================
+
+django-admin startapp modelling
