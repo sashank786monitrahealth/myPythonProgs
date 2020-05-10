@@ -15,11 +15,11 @@ cd sentiment_analysis
 pip install virtualenv
 
 # CREATE A VIRLTUAL ENVIRONMENT INSIDE THE PROJECT
-virtualenv -p python3 venv
+virtualenv -p python3 herokuenv
 
 
 # ACTIVATE VIRTUAL ENV
-source venv/bin/activate
+source herokuenv/bin/activate
 
 # INSTALL DJANGO 3
 pip install django
