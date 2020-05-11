@@ -144,3 +144,39 @@ array([[222,  47],
 ##################################################
 
 URL: http://localhost:8000/model/api/predict/?review=love
+
+$ heroku login
+heroku: Press any key to open up the browser to login or q to exit: 
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/c299451c-2490-49a2-8366-facb370fc0d9
+Logging in... done
+Logged in as sashank.bhogu@monitrahealth.com
+
+$ heroku create
+Creating app... done, ⬢ hidden-dusk-80913
+https://hidden-dusk-80913.herokuapp.com/ | https://git.heroku.com/hidden-dusk-80913.git
+
+
+$ pip install gunicorn
+Collecting gunicorn
+  Downloading gunicorn-20.0.4-py2.py3-none-any.whl (77 kB)
+     |████████████████████████████████| 77 kB 664 kB/s 
+Requirement already satisfied: setuptools>=3.0 in ./herokuenv/lib/python3.6/site-packages (from gunicorn) (46.1.3)
+Installing collected packages: gunicorn
+Successfully installed gunicorn-20.0.4
+
+$ pip freeze
+asgiref==3.2.7
+Django==3.0.6
+gunicorn==20.0.4
+joblib==0.14.1
+numpy==1.18.4
+pkg-resources==0.0.0
+pytz==2020.1
+scikit-learn==0.22.2.post1
+scipy==1.4.1
+sqlparse==0.3.1
+
+
+
+
+
